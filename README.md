@@ -115,9 +115,9 @@ makestep 60 10
 Check the date, restart the service, and check the (now hopefully corrected) date again.
 
 ```bash
-date
-rc-service chronyd restart
-date
+$ date
+$ rc-service chronyd restart
+$ date
 ```
 
 #### There is no `shutdown`?
@@ -217,6 +217,11 @@ $ ufw allow 80
 $ ufw allow 443
 ```
 
-TODO: https://gist.github.com/jumanjiman/f9d3db977846c163df12
+TODO
+- https://gist.github.com/jumanjiman/f9d3db977846c163df12
 
 ## Automate all that?
+
+TODO
+- adjust initial image
+- first boot script
